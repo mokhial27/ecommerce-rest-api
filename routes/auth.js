@@ -12,19 +12,19 @@ router.post("/register", async (req, res) => {
     // Create a new User instance with the provided data
     const newuser = new User({
       username: req.body.username,
-      email: req.body.email, // Fix: email:req.body.username -> email: req.body.email
+      email: req.body.email, 
       password: CryptoJS.AES.encrypt(
         req.body.password,
         process.env.PASS_SEC
       ).toString(),
-    }); // Fix: added missing comma and closing brace
+    }); 
   
     try {
       // Save the new user to the database
-      const saveUser = await newuser.save(); // Fix: added await keyword
+      const saveUser = await newuser.save(); 
       res.status(200).json(saveUser);
     } catch (error) {
-      res.status(500).json(err); // Fix: err -> error
+      res.status(500).json(err); 
     }
   });
 

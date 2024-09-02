@@ -61,9 +61,8 @@ router.post("/", verifyToken, async (req, res) => {
 
     router.get("/", verifyTokenAndAdmin, async (req, res) => {
         try {
-             const carts = await Cart.find();
-    
-             res.status(200).json(carts);
+          const carts = await Cart.find();
+          res.status(200).json(carts);
         } catch (error) {
             res.status(500).json({ message: "no carts found" });
         }

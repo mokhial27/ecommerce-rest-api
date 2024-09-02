@@ -1,4 +1,3 @@
-Sure! Here's a professional README template for your e-commerce app repository. You can modify it to fit any specific details or features of your project:
 
 ---
 
@@ -6,7 +5,7 @@ Sure! Here's a professional README template for your e-commerce app repository. 
 
 ## Overview
 
-The **E-Commerce App** is a full-featured, modern e-commerce platform built with the MERN stack (MongoDB, Express, React, Node.js). It offers a seamless shopping experience with functionalities including user authentication, product management, and payment processing.
+The **E-Commerce App** is a full-featured, modern e-commerce platform built with (MongoDB, Express, Node.js). It offers a seamless shopping experience with functionalities including user authentication, product management, and payment processing.
 
 ## Features
 
@@ -15,7 +14,6 @@ The **E-Commerce App** is a full-featured, modern e-commerce platform built with
 - **Shopping Cart**: Add products to the cart, modify quantities, and checkout.
 - **Order Management**: View order history, track orders, and manage order statuses.
 - **Payment Integration**: Secure payment processing using Stripe.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
 - **RESTful API**: Interact with the backend through a RESTful API.
 
 ## Installation
@@ -38,13 +36,7 @@ To get started with the E-Commerce App, follow these steps:
    npm install
    ```
 
-4. **Install Frontend Dependencies**:
-   ```bash
-   cd ../frontend
-   npm install
-   ```
-
-5. **Setup Environment Variables**:
+4. **Setup Environment Variables**:
 
    Create a `.env` file in the `backend` directory and add your environment variables. Example:
    ```
@@ -58,12 +50,6 @@ To get started with the E-Commerce App, follow these steps:
    - **Backend**:
      ```bash
      cd backend
-     npm start
-     ```
-
-   - **Frontend**:
-     ```bash
-     cd ../frontend
      npm start
      ```
 
@@ -86,11 +72,6 @@ Contributions are welcome! Please follow these guidelines:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please contact [Mohamed Elkhial](mailto:your.email@example.com).
-
 ---
 
 Feel free to adjust the sections according to the specifics of your project or any additional information you might want to include.

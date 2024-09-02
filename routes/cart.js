@@ -58,8 +58,9 @@ router.post("/", verifyToken, async (req, res) => {
       }
     });
 
-
-    router.get("/", verifyTokenAndAdmin, async (req, res) => {
+  //GET ALL CARTS
+    
+  router.get("/", verifyTokenAndAdmin, async (req, res) => {
         try {
           const carts = await Cart.find();
           res.status(200).json(carts);
